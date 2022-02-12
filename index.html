@@ -28,6 +28,11 @@
         <link rel="stylesheet" href="./css/qna.css">
         <link rel="stylesheet" href="./css/animation.css">
         <link rel="stylesheet" href="./css/result.css">
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script>
+            Kakao.init('21a6bd9b656cddb0ab8ad626e4039a10');
+            Kakao.isInitialized();
+        </script>
        
     </head>
     <body>
@@ -69,7 +74,8 @@
 
            </div>
            
-            <button type="button" class="kakao mt-3 py-2 px-3">공유</button>
+            <button type="button" class="kakao mt-3 py-2 px-3"
+            onclick="js:kakaoShare()>공유</button>
             <button type="button" class="copyurl mt-3 py-2 px-3"
             onclick="copy()">복사</button>
 
@@ -95,6 +101,7 @@
         </section>
         <script src="./js/data.js" charset="utf-8"></script>
         <script src="./js/start.js" charset="utf-8"></script>
+        <script src="./js/share.js" charset="utf-8"></script>
         
         </div>
     </body>
