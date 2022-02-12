@@ -5,3 +5,7 @@ body {
 * {
   font-family: "Gamja Flower", cursive;
 }
+
+.ad-banner {
+  width: 320px;
+}
