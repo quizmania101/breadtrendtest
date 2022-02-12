@@ -5,10 +5,6 @@ const result = document.querySelector('#result');
 const endPoint = 10;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-<script src="https://developers.kakao.com/sdk/js/kakao.js">
-Kakao.init('JAVASCRIPT_KEY');
-console.log(Kakao.isInitialized(3559e8003fbb0e617a1c987e45c405e8));
-</script>
 
 function calResult() {
   console.log(select);
