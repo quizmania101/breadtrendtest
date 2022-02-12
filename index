@@ -8,7 +8,7 @@
         <meta name="description" content="2022 빵덕후 능력 고사">
 
         <!-- sns share -->
-        <meta property="og:url" content="https://github.com/quizmania101/2022breadtest.git" />
+        <meta property="og:url" content="elated-knuth-b773ed.netlify.app" />
         <meta property="og:title" content="2022 빵덕후 능력 고사" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="img/share.png" />
@@ -83,7 +83,7 @@
                   document.body.removeChild(t);
                 }
                 function copy() {
-                  copyToClipboard('https://github.com/quizmania101/2022breadtest.git');
+                  copyToClipboard('elated-knuth-b773ed.netlify.app');
                   console.log('Copied!');
                 }
                 </script>
