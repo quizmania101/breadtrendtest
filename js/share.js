@@ -3,7 +3,7 @@ const url = 'https://elated-knuth-b773ed.netlify.app/';
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
   var resultAlt = resultImg.firstElementChild.alt;
-  const shareTitle = '2022 빵덕후 능력 고사 결과';
+  const shareTitle = '나의 2022 빵덕후 능력 고사 결과는?';
   const shareDes = infoList[10-resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.png';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
