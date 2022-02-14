@@ -28,8 +28,8 @@ function setResult() {
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[10 - point].desc;
 
-  const resultRecmd = document.querySelector('.resultRecmd');
-  resultRecmd.innerHTML = infoList[10 - point].recmd;
+  const resultSugg = document.querySelector('.resultSugg');
+  resultSugg.innerHTML = infoList[10 - point].sugg;
 }
 
 function goResult() {
