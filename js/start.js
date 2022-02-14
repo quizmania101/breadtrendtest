@@ -29,7 +29,7 @@ function setResult() {
   resultDesc.innerHTML = infoList[10 - point].desc;
 
   const resultRecmd = document.querySelector('.resultRecmd');
-  resultRecmd.innerHTML = infoList[10 - poing].recmd;
+  resultRecmd.innerHTML = infoList[10 - point].recmd;
 }
 
 function goResult() {
