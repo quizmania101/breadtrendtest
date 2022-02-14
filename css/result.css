@@ -23,6 +23,11 @@
   font-size: 18px;
 }
 
+.resultSugg {
+  font-size: 18px;
+  color: rgb(206, 53, 53);
+}
+
 .kakao {
   color: #000000;
   background-color: #fee500;
